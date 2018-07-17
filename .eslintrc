@@ -1,0 +1,26 @@
+{
+	"parser": "babel-eslint",
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": false
+	},
+	"parserOptions": {
+		"ecmaVersion": 9,
+		"ecmaFeatures": {
+			"jsx": true,
+			"experimentalObjectRestSpread": true
+		}
+	},
+	"extends": "airbnb",
+	"rules": {
+		"react/jsx-filename-extension": 0,
+		"react/no-multi-comp": 0,
+		"react/destructuring-assignment": 0,
+		"react/button-has-type": 0,
+		"react/prefer-stateless-function": 0,
+		"react/prop-types": 0,
+		"no-nested-ternary": 0
+	}
+
+}
