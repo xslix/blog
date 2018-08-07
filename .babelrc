@@ -1,13 +1,17 @@
 {
     "presets": [
-        ["env", {
-            "targets": {
-                "browsers": ["last 2 versions"]
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "browsers": ["last 1 Chrome versions"]
+                }
             }
-        }],
-        "react"
+        ],
+        "@babel/preset-react"
     ],
-     "plugins": ["transform-class-properties"]
-      
-      
+    "plugins": [
+        ["@babel/plugin-proposal-class-properties", {"loose": true}],
+        "react-hot-loader/babel"
+    ]
 }

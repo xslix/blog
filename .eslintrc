@@ -20,7 +20,10 @@
 		"react/button-has-type": 0,
 		"react/prefer-stateless-function": 0,
 		"react/prop-types": 0,
-		"no-nested-ternary": 0
+		"no-nested-ternary": 0,
+		"linebreak-style": 0,
+		"import/prefer-default-export": 0,
+		"react/jsx-one-expression-per-line": 0
 	}
 
 }
